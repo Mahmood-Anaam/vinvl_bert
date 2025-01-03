@@ -3,8 +3,7 @@
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Mahmood-Anaam/vinvl_bert/blob/main/notebooks/vinvl_bert_demo.ipynb)
 
 ## Overview
-
-`vinvl_bert` is a vision-language model designed specifically for **Arabic image captioning**. By leveraging **pre-trained Bidirectional Transformers (BiT)**, it integrates visual features from images with textual data to produce accurate and context-aware captions. This repository is optimized for **Arabic datasets** and provides extensive customizations for various vision-language tasks.
+`vinvl_bert` is a vision-language model specifically tailored for **Arabic image captioning**, inspired by the methodologies outlined in the paper [Arabic Image Captioning using Pre-training of Deep Bidirectional Transformers](https://www.researchgate.net/publication/375946517_Arabic_Image_Captioning_using_Pre-training_of_Deep_Bidirectional_Transformers). The model leverages **pre-trained Bidirectional Transformers (BiT)**, integrating visual features from images with textual data to generate precise and contextually relevant captions in Arabic. This approach employs object tags as anchor points to facilitate semantic alignment between image regions and text, making it highly effective for Arabic datasets. The repository is optimized to support various **vision-language tasks** and offers extensive customization options. 
 
 ## Features
 - **Integration with pre-trained models**: Easily use pre-trained models for captioning tasks.
