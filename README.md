@@ -17,9 +17,8 @@ The `vinvl_bert` repository provides a framework for generating Arabic image cap
 Install the package and its dependencies:
 
 ```bash
-package_name="vinvl-0.1.0-cp310-cp310-linux_x86_64.whl"
-!pip install https://github.com/Mahmood-Anaam/vinvl/raw/main/{package_name} --quiet
-!pip install git+https://github.com/Mahmood-Anaam/vinvl_bert.git --quiet
+pip install git+https://github.com/Mahmood-Anaam/vinvl.git --quiet
+pip install git+https://github.com/Mahmood-Anaam/vinvl_bert.git --quiet
 ```
 
 ## Quick Start
