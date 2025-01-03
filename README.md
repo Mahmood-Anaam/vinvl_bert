@@ -4,7 +4,7 @@
 
 ## Overview
 
-The `vinvl_bert` repository provides a framework for generating Arabic image captions by leveraging pre-trained Bidirectional Transformers (BiT). It processes visual features from images and integrates them with textual data to produce accurate and context-aware captions. This repository is tailored for Arabic datasets and supports extensive customizations for various use cases in vision-language tasks.
+`vinvl_bert` is a vision-language model designed specifically for **Arabic image captioning**. By leveraging **pre-trained Bidirectional Transformers (BiT)**, it integrates visual features from images with textual data to produce accurate and context-aware captions. This repository is optimized for **Arabic datasets** and provides extensive customizations for various vision-language tasks.
 
 ## Features
 - **Integration with pre-trained models**: Easily use pre-trained models for captioning tasks.
@@ -12,17 +12,33 @@ The `vinvl_bert` repository provides a framework for generating Arabic image cap
 - **Flexible configurations**: Supports various decoding methods and customizations for generation.
 - **Supports constrained beam search (CBS)**: Enables fine-grained control over output captions.
 
-## Installation
 
-Install the package and its dependencies:
+## Installation:
 
+#### Option 1: Install via `pip`
 ```bash
-pip install git+https://github.com/Mahmood-Anaam/vinvl.git --quiet
-pip install git+https://github.com/Mahmood-Anaam/vinvl_bert.git --quiet
+pip install git+https://github.com/Mahmood-Anaam/vinvl_bert.git
+```
+
+#### Option 2: Clone Repository and Install in Editable Mode
+```bash
+!git clone https://github.com/Mahmood-Anaam/vinvl_bert.git
+%cd vinvl_bert
+!pip install -e .
+```
+
+#### Option 3: Use Conda Environment
+```bash
+conda env create -f environment.yml
+conda activate vinvl_bert
+
+!git clone https://github.com/Mahmood-Anaam/vinvl_bert.git
+%cd vinvl_bert
+!pip install -e .
 ```
 
 ## Quick Start
-
+Here’s how to get started with `vinvl_bert`:
 ```python
 import torch
 from PIL import Image
