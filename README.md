@@ -16,7 +16,7 @@
 
 #### Option 1: Install via `pip`
 ```bash
-pip install git+https://github.com/Mahmood-Anaam/vinvl_bert.git
+pip install git+https://github.com/Mahmood-Anaam/vinvl_bert.git --quiet
 ```
 
 #### Option 2: Clone Repository and Install in Editable Mode
