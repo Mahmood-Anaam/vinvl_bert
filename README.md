@@ -28,11 +28,10 @@ pip install -e .
 
 #### Option 3: Use Conda Environment
 ```bash
-conda env create -f environment.yml
-conda activate vinvl_bert
-
 git clone https://github.com/Mahmood-Anaam/vinvl_bert.git
 cd vinvl_bert
+conda env create -f environment.yml
+conda activate vinvl_bert
 pip install -e .
 ```
 
