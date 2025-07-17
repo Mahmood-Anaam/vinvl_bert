@@ -79,13 +79,3 @@ pipeline = VinVLBertPipeline(cfg)
 features, captions = pipeline([image])
 print("Generated Caption:", captions[0])
 ```
-
-## Customization
-
-You can fine-tune or modify configurations in `VinVLBertConfig` to suit specific tasks, such as:
-- Adjusting sequence lengths for text and images.
-- Modifying beam search parameters for generation.
-- Enabling or disabling constrained beam search (CBS) for specific constraints.
-
-## Limitations
-This repository is a utility for integrating pre-trained models for Arabic image captioning. It is not a full-fledged library for vision-language tasks and assumes familiarity with PyTorch and Transformers.
